@@ -1,0 +1,1 @@
+Nesse repositorio você pode encontrar todos os meus projetos feitos nas matérias de programação orientada a objetos na faculdade de sistemas de informação - 3º Senestre na segunda parte do ano de 2021 (A linguagem utilizada é JAVA)
