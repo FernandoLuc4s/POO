@@ -10,7 +10,7 @@ public class CadastrodeVeiculo {
         int option=10;
         
         while (option != 0) {
-            option = Integer.parseInt(JOptionPane.showInputDialog("Digite a opção 1 para veiculos de carga ou 2 para veiculos de passeio"));
+            option = Integer.parseInt(JOptionPane.showInputDialog("Digite a opção <1> para veiculos de carga ou 2 para veiculos de passeio"));
             if (option == 1) {
                 v1.id = Integer.parseInt(JOptionPane.showInputDialog("Digite o Id do veiculo"));
                 v1.marca = JOptionPane.showInputDialog("Digite a marca do veículo");
