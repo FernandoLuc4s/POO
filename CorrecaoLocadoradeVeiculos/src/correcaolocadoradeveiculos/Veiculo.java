@@ -10,7 +10,7 @@ package correcaolocadoradeveiculos;
  * @author User
  */
 public class Veiculo {
-     protected int id;
+    protected int id;
     protected String marca; 
     protected String modelo; 
     String cor;

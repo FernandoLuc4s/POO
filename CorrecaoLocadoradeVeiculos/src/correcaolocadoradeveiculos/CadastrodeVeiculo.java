@@ -26,19 +26,19 @@ public class CadastrodeVeiculo
             
         }
         if (opcao==2) {
-            VeiculoCarga vg = new VeiculoCarga();
-            vg.id = Integer.parseInt(JOptionPane.showInputDialog("Digite o ID do veiculo"));
-            vg.cor = JOptionPane.showInputDialog("Digite a cor do veiculo");
-            vg.dt_cadastro = JOptionPane.showInputDialog("Digite a data de cadastro do veiculo");
-            vg.marca = JOptionPane.showInputDialog("Digite a marca do veiculo");
-            vg.modelo = JOptionPane.showInputDialog("Digite o modelo do veiculo");
-            vg.valor = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do veiculo"));
-            vg.setAno(Integer.parseInt(JOptionPane.showInputDialog("Digite o ano do veiculo")));
-            vg.setKm(Integer.parseInt(JOptionPane.showInputDialog("Digite a kilometragem do veiculo")));
-            vg.setChassi(Long.parseLong(JOptionPane.showInputDialog("Digite o número de chassi do veiculo")));
-            vg.tipodeCarga = JOptionPane.showInputDialog("Digite o tipo da carga do veiculo");
+            VeiculoCarga vc = new VeiculoCarga();
+            vc.id = Integer.parseInt(JOptionPane.showInputDialog("Digite o ID do veiculo"));
+            vc.cor = JOptionPane.showInputDialog("Digite a cor do veiculo");
+            vc.dt_cadastro = JOptionPane.showInputDialog("Digite a data de cadastro do veiculo");
+            vc.marca = JOptionPane.showInputDialog("Digite a marca do veiculo");
+            vc.modelo = JOptionPane.showInputDialog("Digite o modelo do veiculo");
+            vc.valor = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do veiculo"));
+            vc.setAno(Integer.parseInt(JOptionPane.showInputDialog("Digite o ano do veiculo")));
+            vc.setKm(Integer.parseInt(JOptionPane.showInputDialog("Digite a kilometragem do veiculo")));
+            vc.setChassi(Long.parseLong(JOptionPane.showInputDialog("Digite o número de chassi do veiculo")));
+            vc.tipodeCarga = JOptionPane.showInputDialog("Digite o tipo da carga do veiculo");
             
-            JOptionPane.showMessageDialog(null, "Os dados digitados foram\n"+vg.id+"\n"+vg.cor+"\n"+vg.dt_cadastro+"\n"+vg.marca+"\n"+vg.modelo+"\n"+vg.valor+"\n"+vg.getAno()+"\n"+vg.getKm()+"\n"+vg.getChassi()+"\n"+vg.tipodeCarga);
+            JOptionPane.showMessageDialog(null, "Os dados digitados foram\n"+vc.id+"\n"+vc.cor+"\n"+vc.dt_cadastro+"\n"+vc.marca+"\n"+vc.modelo+"\n"+vc.valor+"\n"+vc.getAno()+"\n"+vc.getKm()+"\n"+vc.getChassi()+"\n"+vc.tipodeCarga);
             
         }
         }while(opcao!=0); 
